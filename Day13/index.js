@@ -82,3 +82,4 @@ const b=Object.keys(obj);
 for(let i=0;i<b.length;i++){
     console.log(obj[b[i]]);
 }
+
