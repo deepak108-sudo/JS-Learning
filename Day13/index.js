@@ -57,3 +57,28 @@ for(let i=0;i<=5;i++){
     }
     process.stdout.write('\n');
 }
+
+//while loop
+let i=1;
+while(i<=10){
+    console.log(i);
+    i++;
+}
+
+let arr=[10,20,"rohit",30,40,50];
+for(let i=0;i<arr.length;i++) console.log(arr[i]);
+
+const obj={
+    name:"Rohit",
+    age:20,
+    city:"raipur"
+}
+
+const a=Object.values(obj);
+console.log(a);
+
+//Using keys
+const b=Object.keys(obj);
+for(let i=0;i<b.length;i++){
+    console.log(obj[b[i]]);
+}
