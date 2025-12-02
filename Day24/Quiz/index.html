@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex items-center justify-center min-h-screen">
+        <h1 class="font-bold text-center">Philosophy Quiz</h1>
+        <form id="quizForm">
+          <div class="question">
+            <!-- Question 1 -->
+            <p>Who has given the philosophy of Übermensch?</p>
+            <label
+              ><input type="radio" name="q1" value="Nietzsche" />Nietzsche</label
+            ><br />
+            <label><input type="radio" name="q1" value="Osho" />Osho</label><br />
+            <label><input type="radio" name="q1" value="Buddha" />Buddha</label
+            ><br />
+            <label><input type="radio" name="q1" value="Camus" />Camus</label><br />
+    
+            <!-- Question 2 -->
+            <p>Who is more focused on society deformity?</p>
+            <label
+              ><input type="radio" name="q2" value="Nietzsche" />Nietzsche</label
+            ><br />
+            <label><input type="radio" name="q2" value="Osho" />Osho</label><br />
+            <label><input type="radio" name="q2" value="Buddha" />Buddha</label
+            ><br />
+            <label><input type="radio" name="q2" value="Camus" />Camus</label><br />
+    
+            <!-- Question 3 -->
+            <p>Who introduced the concept of the “collective unconscious”?</p>
+            <label><input type="radio" name="q3" value="Jung" />Jung</label><br />
+            <label><input type="radio" name="q3" value="Freud" />Freud</label><br />
+            <label><input type="radio" name="q3" value="Adler" />Adler</label><br />
+            <label><input type="radio" name="q3" value="Durkheim" />Durkheim</label
+            ><br />
+    
+            <!-- Question 4 -->
+            <p>Which philosopher is famous for “existential dread”?</p>
+            <label
+              ><input
+                type="radio"
+                name="q4"
+                value="Kierkegaard"
+              />Kierkegaard</label
+            ><br />
+            <label><input type="radio" name="q4" value="Camus" />Camus</label><br />
+            <label><input type="radio" name="q4" value="Sartre" />Sartre</label
+            ><br />
+            <label><input type="radio" name="q4" value="Russell" />Russell</label
+            ><br />
+    
+            <!-- Question 5 -->
+            <p>Who wrote “Thus Spoke Zarathustra”?</p>
+            <label
+              ><input type="radio" name="q5" value="Nietzsche" />Nietzsche</label
+            ><br />
+            <label><input type="radio" name="q5" value="Kant" />Kant</label><br />
+            <label><input type="radio" name="q5" value="Hegel" />Hegel</label><br />
+            <label><input type="radio" name="q5" value="Osho" />Osho</label><br />
+          </div>
+    
+          <input type="submit" value="Submit" />
+          <div id="result"></div>
+        </form>
+    </div>
+    <script src="./first.js"></script>
+  </body>
+</html>
