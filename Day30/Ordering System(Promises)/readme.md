@@ -1,0 +1,1 @@
+Promise is and object which tell that data will be not delivered right now but it promises that data will be delivered in future either data or if error happened then error will be returned.
